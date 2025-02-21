@@ -1,0 +1,35 @@
+<head>
+    <link rel="stylesheet" href="path/to/your/existing/styles.css">
+    <style>
+        /* CSS Kustom untuk sidebar ungu pastel */
+        .bg-gradient-primary {
+            background: linear-gradient(180deg, #d6c3e0 10%, #a78bca 100%) !important; /* Gradien ungu pastel */
+        }
+
+        /* Mengubah warna teks di sidebar menjadi lebih gelap agar kontras */
+        .sidebar .nav-link {
+            color: #4b2c6f; /* Warna teks ungu gelap */
+        }
+
+        /* Mengubah warna latar belakang item yang terpilih */
+        .nav-item.active .nav-link {
+            background-color: #a78bca; /* Warna latar belakang item aktif */
+            color: white; /* Warna teks item aktif */
+        }
+
+        /* Mengubah warna dropdown */
+        .dropdown-menu {
+            background-color: #d6c3e0; /* Warna latar belakang dropdown */
+        }
+
+        /* Mengubah warna teks di dropdown */
+        .dropdown-item {
+            color: #4b2c6f; /* Warna teks dropdown */
+        }
+
+        .dropdown-item:hover {
+            background-color: #a78bca; /* Warna latar belakang saat hover */
+            color: white; /* Warna teks saat hover */
+        }
+    </style>
+</head>
